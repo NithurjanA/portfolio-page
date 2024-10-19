@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 61px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: white;
+  }
+
+  /* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #00ff80cc;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3em;
+    color: #00ff80cc;
+    line-height: 1;
+  }
