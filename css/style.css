@@ -336,3 +336,90 @@ nav a:hover {
   flex-direction: column;
   gap: 20px;
 }
+
+.education {
+  display: grid;
+  grid-template-columns: 180px auto auto;
+  gap: 20px;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: start;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.education:hover {
+  transform: translateX(10px);
+}
+
+.education:hover h3 {
+  background-color: #00ff80;
+  color: black;
+}
+
+.education h3 {
+  text-align: center;
+  text-wrap: nowrap;
+  width: 100%;
+}
+
+.education p {
+  width: auto;
+}
+
+.education hr {
+  height: 50px;
+  width: 3px;
+}
+
+/* Contact */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+form input,
+textarea {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+input[type="submit"] {
+  background-color: #00ff80;
+  border: 2px solid #00ff80;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #000000;
+}
